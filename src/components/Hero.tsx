@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col items-center">
       <Image
-        src={"/utsho-de-bravestone.png"}
+        src={"https://avatars.githubusercontent.com/u/142986562?v=4"}
         width={200}
         height={200}
         alt={"utsho de bravestone"}

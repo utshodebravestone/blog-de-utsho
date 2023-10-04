@@ -1,5 +1,5 @@
 ---
-title: 'write your own programming language (for fun)'
+title: 'write your own programming language'
 publish_date: '2023-9-4'
 ---
 
@@ -23,6 +23,4 @@ i'm glad you asked. i'll tell you but before that, i need to clear out what it m
 
 **what is a programming language?**
 
----
-
-## TODO : | ***writing in progress...***
+## writing in progress : |
