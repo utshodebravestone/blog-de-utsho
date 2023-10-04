@@ -17,8 +17,8 @@ export default function RootLayout({
       <body className="bg-slate-900 text-white">
         <Navbar />
         <div className="h-5" />
-        <main className="w-full flex justify-center">
-          <div className="max-w-[888px]">{children}</div>
+        <main className="px-5 w-full flex justify-center">
+          <div className="w-full max-w-[888px]">{children}</div>
         </main>
       </body>
     </html>
