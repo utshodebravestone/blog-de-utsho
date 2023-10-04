@@ -7,7 +7,7 @@ export default function PostList() {
   return (
     <section className="w-full">
       <h2 className="text-4xl pb-3 mb-5 border-b border-slate-700">
-        My Blog Posts
+        my blog posts
       </h2>
       <ul className="flex flex-col gap-5">
         {posts.map((post) => (

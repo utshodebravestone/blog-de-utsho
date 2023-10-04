@@ -17,7 +17,12 @@ export default function getPosts(): BlogPost[] {
 
     const post = matter(content);
 
-    return { id, title: post.data.title, publish_date: post.data.publish_date };
+    return {
+      id,
+      title: post.data.title,
+      publish_date: post.data.publish_date,
+      content: "",
+    };
   });
 
   return posts.sort((a, b) => (a.publish_date < b.publish_date ? 1 : -1));
